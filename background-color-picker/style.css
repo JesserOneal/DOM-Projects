@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0,0,0,0.7);
+    text-align: center
+}
+h1{
+    font-size: 4rem;
+    
+}
+.container{
+    height:100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.head{
+    color: white;
+    padding: 1rem 0 0 0;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    margin: auto 3rem;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 3px solid white;
+    color: black;
+    transition-duration: 500ms;
+}
+.btn:hover{
+    font-size: 2.1rem;
+    color: white;
+}
+
+.red{
+    background-color: red;
+    transition:all 500ms
+}
+.purple{
+    background-color: purple;
+    transition:all 500ms
+}
+.blue{
+    background-color: blue;
+    transition:all 500ms
+}
+.orange{
+    background-color: orange;
+    transition:all 500ms
+}
+.green{
+    background-color: green;
+    transition:all 500ms
+}
